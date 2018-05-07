@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: turquoise;
+  font-size: 15px;
+  padding: 8px;
+  background-image: './images/dog1-sq.jpg';
+}
+
+body img {
+    border-radius: 50%;
+}
+
+div.background_image {
+  background-image: url("../../images/park.jpg");
+  justify-content: center;
+  background-size: 100%;
+  display: flex;
+}
+
+content img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.button {
+  color: turquoise;
+}
+
+
+div.dogs_button {
+  color: turquoise;
+  width: 40%;
+  text-align: center;
+  margin: 10px;
+  color: turquoise;
+}
+
+content{
+  display: flex;
+  justify-content: center;
+}
